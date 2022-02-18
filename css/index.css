@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.body{
+    margin-left: auto;
+    margin-right: auto;
+}
+.Titulo{
+    background: lightcoral;
+    color: black;
+    height: 80px;
+    width: 100vw;
+    margin-bottom: 10px ;
+    margin-left: auto;
+    margin-right: auto;
+}
+.Logo{
+    width: auto;
+    align-self: auto;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 110%;
+}
+.Redes{
+    background-color:rgb(165, 97, 42);
+    color: white;
+    width: 100vw;
+    height: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: right;
+    padding-bottom: 2em;
+}
+.Redes ul li{
+    display: inline-block;
+    
+}
+.Redes ul li a{
+    text-decoration: none;
+    display: block;
+    padding: 15px;
+    color: black;
+    background: rgb(231, 141, 67);
+    border-radius: 29em;
+}
+.Redes :hover{
+    color: white;
+}
+#Cuerpo{
+    margin: 0;
+    display: flexbox;
+    width: 100vw;
+}
+#Cuerpo img{
+    width: 15%;
+}
+.img{
+    background-color:  rgb(207, 0, 114);
+    text-align: center;
+    padding-top: 2em;
+}
+.menuprincipal{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.DatosPersonales{
+    background-color:  rgb(207, 0, 114);
+    width: 100vw;
+    box-sizing: border-box;
+    padding: 3%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.InformacionAcademica{
+    background: rgb(9, 136, 221);
+    width: 100vw;
+    box-sizing: border-box;
+    padding: 3%;
+}
+.InformacionLaboral{
+    background: rgb(139, 224, 2);
+    width: 100vw;
+    box-sizing: border-box;
+    padding: 3%;
+}
+.Piedepagina{
+    width: 100vw;
+    border-top: 100px solid lightcoral;
+    background: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+.Datosdelocalizacion{
+    background: rgb(255, 248, 147);
+    padding-top: 6em;
+    padding-bottom: 2em;
+    padding-left: 2em;
+    padding-right: 2em;
+    color: black;
+    border-radius: 200px;
+    text-align: center;
+}
+.ubicacion{
+    width: 60%;
+}
